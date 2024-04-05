@@ -1,6 +1,9 @@
 require("plugin")
 require("remap")
 
+vim.opt.guicursor = ""
+-- vim.opt.guicursor = i:ver25-iCursor
+
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
