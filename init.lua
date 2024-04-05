@@ -1,7 +1,5 @@
 require("plugin")
-
-vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+require("remap")
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
