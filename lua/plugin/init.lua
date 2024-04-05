@@ -1,1 +1,1 @@
-print("no plugins")
+require("plugin.packer")
