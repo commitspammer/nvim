@@ -39,7 +39,7 @@ vim.keymap.set("i", "<C-c>", "<Esc>")
 vim.keymap.set("n", "Q", "<nop>")
 
 -- auto close scope brackets
-vim.keymap.set("i", "{<Return>", "{<Return>}<Esc>O<Tab>")
+vim.keymap.set("i", "{<Return>", "{<Return>}<Esc>O")
 
 -- auto close html element
 vim.keymap.set("i", "><Return>", "><Esc>yi<A</><Esc>hpF>a<Return><Esc>O<Tab>")
